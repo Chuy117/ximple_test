@@ -37,7 +37,7 @@ Ejecutar aplicación.
 
 Nota: Es posible ejecutar el comando npx react-native run-ios o run-android para ejecutar directamente el proyecto aunque con la versión 0.73.2 puede haber errores en Windows por lo que ahora se opta por ese comando y una vez levantado el servidor, escoger el sistema operativo
 
-Si quieres hacer la prueba en un dispositivo físco se deben ejecutar unos pasos extra.
+Si quieres hacer la prueba en un dispositivo físico se deben ejecutar unos pasos extra.
 
     7) Abrir el IDE correspondiente a cada SO.
     8) Dependiendo del IDE, se recomienda limpiar el proyecto, hacer un build y posteriormente instalar la app en su dispositivo mediante el botón 'Run' de cada IDE.
@@ -45,6 +45,6 @@ Si quieres hacer la prueba en un dispositivo físco se deben ejecutar unos pasos
     10) En dicho menú, se recomienda habilitar el Hot Reloading para ver los cambios en vivo.
     11) Buscar la opción para seleccionar el IP a que se conectará el servidor.
 
-Nota: El dispoitivo móvil debe estar conectado a la misma red que el servidor.
+Nota: El dispositivo móvil debe estar conectado a la misma red que el servidor.
     
     12) Una vez escrita la IP, volver a agitar el dispositivo y recargar la aplicación.
