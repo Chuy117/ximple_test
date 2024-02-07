@@ -1,5 +1,7 @@
 # Desafío Ximple.
 
+## Versión en español.
+
 Objetivo.
 
 Desarrollar una aplicación con React Native con algunas funcionalidades.
@@ -14,7 +16,6 @@ Características de la implementación.
     6 Validación de botón para navegar a la página de aceptación de crédito.
     7 Almacenar o pasar por parámetros la opción seleccionada.
     8 Mostrar y navegar a la pantalla de aceptación en la que se muestre la opción del usuario.
-
 
 Requerimientos.
 
@@ -35,7 +36,7 @@ Ejecutar aplicación.
     5 Ejecutar el comando npm install.
     6 Ejecutar el comando npm start.
 
-Nota: Es posible ejecutar el comando npx react-native run-ios o run-android para ejecutar directamente el proyecto aunque con la versión 0.73.2 puede haber errores en Windows por lo que ahora se opta por ese comando y una vez levantado el servidor, escoger el sistema operativo
+Nota: Es posible ejecutar el comando npx react-native run-ios o run-android para ejecutar directamente el proyecto aunque con la versión 0.73.2 puede haber errores en Windows por lo que ahora se opta por ese comando y una vez levantado el servidor, escoger el sistema operativo.
 
 Si quieres hacer la prueba en un dispositivo físico se deben ejecutar unos pasos extra.
 
@@ -48,3 +49,53 @@ Si quieres hacer la prueba en un dispositivo físico se deben ejecutar unos paso
 Nota: El dispositivo móvil debe estar conectado a la misma red que el servidor.
     
     12 Una vez escrita la IP, volver a agitar el dispositivo y recargar la aplicación.
+
+## English version.
+
+Objective.
+
+Develop an application with React Native with some functionalities.
+
+Implementation features.
+
+    1 Create an application where you can navigate between screens.
+    2 Screen 1, display a header and subheader section as well as a small form.
+    3 Validate that the button is not enabled if the previous fields have not been filled out.
+    4 Implement a Modal component that displays the results of a get request.
+    5 List the API response.
+    6 Button validation to navigate to the credit acceptance page.
+    7 Store or pass the selected option through parameters.
+    8 Display and navigate to the acceptance screen showing the user option.
+
+Requirements.
+
+    NodeJS.
+    IDE of your preference (VSC suggested).
+    Android or iOS OS simulator (optional).
+    Physical mobile device (optional).
+    Git.
+
+Note: At least one simulator or physical device is required to test.
+
+Run application.
+
+    1 Download the .zip file or clone the repository.
+    2 Decompress the file (if you chose to decompress the file).
+    3 Open the project in the IDE of your choice.
+    4 Open a terminal in the root of the project.
+    5 Run the npm install command.
+    6 Run the npm start command.
+
+Note: It is possible to execute the npx react-native run-ios or run-android command to directly execute the project, although with version 0.73.2 there may be errors in Windows, so now we choose that command and once the server is up, choose the operating system.
+
+If you want to do the test on a physical device, a few extra steps must be executed.
+
+    7 Open the IDE corresponding to each OS.
+    8 Depending on the IDE, it is recommended to clean the project, do a build and then install the app on your device using the 'Run' button of each IDE.
+    9 Once the app is installed, you must shake it to open a menu.
+    10 In this menu, it is recommended to enable Hot Reloading to see the changes live.
+    11 Look for the option to select the IP to which the server will connect.
+
+Note: The mobile device must be connected to the same network as the server.
+    
+    12 Once the IP has been written, shake the device again and reload the application.
